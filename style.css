@@ -1,0 +1,327 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+div {
+    font-family: Rubik;
+}
+.phone-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 12em;
+    left: -5em;
+
+}
+.purple-background {
+    width: 35em;
+    height: 55em;
+    border-radius: 0px 0px 500px 500px;
+    background-image: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    position: fixed;
+    top: 0;
+    left: -5em;
+
+}
+.light-background {
+    width: 40em;
+    height: 50em;
+    border-radius: 450px 450px 0px 0px;
+    background-color: hsl(289, 100%, 72%);
+    opacity: 5%;
+    position: fixed;
+    right: -6em;
+    bottom: 0; 
+
+}
+.text-part {
+display: flex;
+flex-direction: column;
+margin-left: 10em;
+}
+.heading {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 0.5em;
+}
+.paragraph {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 1em;
+    width: 28em;
+    line-height: 25px;
+    color: hsl(270, 7%, 64%);
+
+}
+.phone {    
+    width: 20em;
+    background-color: hsl(270, 20%, 96%);
+    border: 11px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 5px 10px 15px rgb(221, 221, 221);
+}
+.top-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6em;
+    width: 20em;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    border-radius: 20px 20px 5px 5px;
+}
+.iphone-camera {
+    background-color: rgb(255, 255, 255);
+    width: 12em;
+    height: 1.5em;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    left: 35em;
+}
+
+.arrow {
+    font-weight: 700;
+    color: white;
+    margin-right: 0.5em;
+    margin-left: 1em;
+    margin-top: 20px;
+}
+.profile-photo img {
+    width: 2em;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 1em;
+    margin-top: 25px;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 6em;
+    margin-top: 10px;
+}
+.name {
+    font-weight: 500;
+    color: white;
+    font-size: 1em;
+    margin-top: 15px;
+}
+.info {
+    font-weight: 400;
+    color: white;
+    opacity: 50%;
+    font-size: 0.7em;
+
+}
+.three-dots {
+    font-weight: 700;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+.messages-part {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(270, 20%, 96%);
+    border-radius: 0px 0px 20px 20px;
+}
+.box {
+    background-color: hsl(276, 76%, 92%);
+    width: 10em;
+    margin:10px 0px 0px 10px;
+    padding: 8px;
+    border-radius: 15px 15px 15px 2px; 
+}
+.msg-o {
+    width: 14em;
+    font-size: 10px;
+    color: hsl(276, 55%, 52%);
+    font-weight: 400;
+}
+.msg-t {
+    width: 14em;
+    font-size: 10px;
+    color: hsl(276, 55%, 52%);
+    font-weight: 400;
+}
+.messages-sent {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10px;
+    margin-top: 15px;
+
+}
+.images-part img {
+    width: 3em;
+    border-radius: 0.7em;
+    margin-left: 8px;
+    margin-bottom: 7px;
+}
+.box-sent {
+    background-color: rgb(255, 255, 255);
+    width: 8.5em;
+    padding: 6px;
+    border-radius: 15px 15px 2px 15px;
+    margin-bottom: 7px;
+}
+.msg-f {
+    font-size: 10px;
+    width: 14em;
+    font-weight: 400;
+    color: hsl(271, 15%, 43%);
+}
+.box-sent-s {
+    background-color: rgb(255, 255, 255);
+    width: 5em;
+    padding: 6px;
+    border-radius: 15px 15px 2px 10px;
+
+}
+.msg-s {
+    font-size: 10px;
+    width: 14em;
+    font-weight: 400;
+    color: hsl(271, 15%, 43%);
+}
+.messages-part-last {
+    display: flex;
+    flex-direction: column;
+
+}
+.box-last {
+    background-color: hsl(276, 76%, 92%);
+    width: 10em;
+    margin:15px 0px 0px 10px;
+    padding: 8px;
+    border-radius: 15px 15px 15px 2px; 
+
+}
+.msg-l {
+    width: 14em;
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    font-weight: 400;
+}
+.offer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     color: white;
+    width: 13em;
+    height: 2em;
+    padding: 2px;
+    background-image: linear-gradient(to right,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 10px 10px 10px 2px; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.task {
+font-size: 12px;
+font-weight: 400;
+}
+.task-s {
+font-size: 12px;
+
+}
+.circle {
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.price {
+    margin-left: 2.5em;
+    font-size: 16px;
+    font-weight: 700;
+}
+.pricel {
+    margin-left: 4em;
+    font-size: 16px;
+    font-weight: 700;
+}
+.typing-bar {
+    margin: 25px 15px 20px 15px;
+}
+.text-bar {
+    width: 21.5em;
+    border: none;
+    background-color: white;
+    height: 3em;
+    border-radius: 20px;
+    outline: none;
+    font-family: Rubik;
+}
+.text-bar::placeholder {
+    font-family: Rubik;
+    font-size: 0.9em;
+    color: hsl(206, 6%, 79%);
+    margin: 0;
+    text-align: left;
+    padding-left: 1.5em;
+}
+.arrow-button {
+    height: 2.5em;
+    width: 2.5em;
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-left: -42px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .phone-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 2em;
+        left: 0.8em;
+
+}
+    .purple-background {
+        left: -19em;
+        height: 35em;
+    }
+    .light-background {
+        right: -24em;
+        height: 25em;
+    }
+    .text-part {
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5em;
+    }
+    .heading {
+        font-size: 3.5em;
+    }
+    .paragraph {
+        width: 19em;
+        font-size: 1.2em;
+        line-height: 1.6em;
+        margin-bottom: 2em;
+    }
+    .iphone-camera {
+        left: 5.5em;
+    }
+
+
+}
+
